@@ -23,8 +23,12 @@ Documentation explaining the steps taken to set up the pipeline.
 ## Steps taken:
 
 1. Create ECR in AWS console - 
-![Alt text](../../../Desktop/Screenshot%202023-09-02%20at%204.10.53%20PM.png)
+![Screenshot 2023-09-02 at 4 10 53 PM](https://github.com/vincent8055/3.11-assignment/assets/127754761/7e8c86ab-f42f-41a2-a1aa-aad3fc265233)
+
 
 2. Create ECS in AWS console and define task definition
+![Screenshot 2023-09-02 at 4 14 30 PM](https://github.com/vincent8055/3.11-assignment/assets/127754761/a49bea8d-a36a-4e52-af0b-6614b24d1073)
 
+
+3. create CI/CD pipeline to deploy Dockerfile in Github actions.
 
