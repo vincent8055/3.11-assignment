@@ -38,7 +38,7 @@ jobs:
       with:
         task-definition: ecs-task.json
         container-name: vincent_311
-        image: ${{ steps.build-image.outputs.image }}
+        image: vincent_311:latest
 
     - name: Deploy Amazon ECS task definition
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
