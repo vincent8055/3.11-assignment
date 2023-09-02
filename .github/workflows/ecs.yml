@@ -46,7 +46,7 @@ jobs:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: vincet_311
         cluster: vincent_311
-        wait-for-service-stability: true
+        wait-for-service-stability: False
 
 
 
