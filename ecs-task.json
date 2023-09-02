@@ -1,0 +1,54 @@
+{
+    "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:255945442255:task-definition/vincent_311:1",
+    "containerDefinitions": [
+        {
+            "name": "vincent_311",
+            "image": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/vincent_311:latest",
+            "cpu": 0,
+            "portMappings": [
+                {
+                    "containerPort": 3000,
+                    "hostPort": 3000,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true,
+            "environment": [],
+            "mountPoints": [],
+            "volumesFrom": []
+        }
+    ],
+    "family": "vincent_311",
+    "executionRoleArn": "arn:aws:iam::255945442255:role/ecsTaskExecutionRole",
+    "networkMode": "awsvpc",
+    "revision": 1,
+    "volumes": [],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "ecs.capability.execution-role-ecr-pull"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+        },
+        {
+            "name": "ecs.capability.task-eni"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EC2",
+        "FARGATE"
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "512",
+    "memory": "1024",
+    "registeredAt": "2023-09-02T05:08:02.526Z",
+    "registeredBy": "arn:aws:iam::255945442255:user/vincent8055",
+    "tags": []
+}
