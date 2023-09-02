@@ -44,7 +44,7 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: ds-nodejs-svc
+        service: vincent_311
         cluster: vincent_311
         wait-for-service-stability: true
 
