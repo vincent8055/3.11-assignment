@@ -27,6 +27,7 @@ jobs:
         ECR_REPOSITORY: vincent_311
         IMAGE_TAG: latest
       run: |
+        ls -lrt
         docker build -t vincent_311 .
         docker tag vincent_311:latest 255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/vincent_311:latest
         docker push 255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/vincent_311:latest
